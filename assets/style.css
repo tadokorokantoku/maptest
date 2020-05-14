@@ -1,0 +1,40 @@
+/* Main Laiout */
+html {
+  font-size: 65.5%;
+}
+body {
+  background-color: #1E1E1E;
+  color: #d8d8d8;
+  margin: 10px auto;
+  padding: 10;
+}
+
+.div-all{
+  margin : 10px auto;
+}
+/* Graph Layout ––––––––––––––––––––––––––––––––––––––––––––––––––*/
+.div-for-charts{
+    background-color: #1E1E1E;
+    padding: 1px;
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    /* height: 100vh;
+    width: 100%; */
+  }
+  #graph_geo {
+    flex-grow: 1 
+  }
+  #graph_bar {
+    flex-grow: 2 
+  }
+
+
+/* control area */
+.div-for-ctr{
+  background-color: rgb(22, 22, 22);
+  color: rgb(20, 20, 20);
+  }
+  
+  
